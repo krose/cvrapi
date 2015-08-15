@@ -1,0 +1,14 @@
+Package: cvrapi
+Type: Package
+Title: R Wrapper for the CVR API.
+Version: 0.1
+Date: 2015-08-15
+Author: Kenneth Rose
+Maintainer: Kenneth Rose <kennethrose82@gmail.com>
+Description: This package is a wrapper for the CVR API.
+License: MIT
+LazyData: TRUE
+Imports:
+  httr,
+  jsonlite,
+  stringr
