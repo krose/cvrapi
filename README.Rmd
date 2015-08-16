@@ -1,0 +1,34 @@
+---
+title: "CVR API"
+output:
+  md_document:
+    variant: markdown_github
+---
+
+This is a quick and dirty introduction to the CVR API.
+
+
+```{r}
+
+library(cvrapi)
+
+```
+
+
+This is how you use the search function. The result is a list with a nested data.frame in 'productionunits'.
+
+
+```{r}
+
+cvr_get(search = "RK Foto ApS", country = "dk")
+
+```
+
+You can also search directly in the names of companies.
+
+
+```{r}
+
+cvr_get(search = "RK Foto ApS", country = "dk", search_in = "name")
+
+```
