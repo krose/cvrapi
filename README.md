@@ -1,5 +1,17 @@
 This is a quick and dirty introduction to the CVR API.
 
+Installation
+------------
+
+You can only install the development version from github, using Hadley Wickham's [devtools](http://cran.r-project.org/web/packages/devtools/index.html) package:
+
+    if(!require("devtools")) install.packages("devtools")
+    library("devtools")
+    install_github("rOpenGov/dkstat")
+
+Examples
+--------
+
 ``` r
 library(cvrapi)
 ```
